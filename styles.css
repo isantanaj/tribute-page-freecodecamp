@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F7F0;
+    color: #19323C;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+ h2{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+ }
+
+ #main{
+     padding: 0px 20px 20px 20px;
+ }
+
+ #img-div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #8C5E58;
+     border-radius: 12px;
+     padding: 20px;
+ }
+
+ #image{
+     height: 300px;
+     width: 600px;
+ }
+
+ #img-caption{
+    font-family: 'Palanquin', sans-serif;
+    color: #F3F7F0;
+ }
+
+ h3{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+     text-align: center;
+ }
+ #tribute-info{
+     /*display:flex;
+     flex-direction: column;
+     flex-wrap: wrap;*/
+     padding: 0 150px 0 150px;
+     text-align: justify;
+ }
+
+ .natalia{
+    margin-top: 10px;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: bold;
+    color: #A93F55;
+ }
+
+ .javier{
+    margin-bottom: 10px;
+    font-family: 'Palanquin', sans-serif;
+ }
+
+ .javier-final{
+     margin-bottom: 30px;
+ }
+
+ a{
+    text-decoration: none;
+     padding: 10px;
+     background-color: #19323C;
+     color: #F3F7F0;
+     border-radius: 12px;
+     transition: .3s;
+ }
+
+ a:hover{
+     box-shadow: 2px 3px 10px #000000;
+     background-color: #F3F7F0;
+     color: #19323C;
+ }
+
+ @media (min-width: 500px){
+     #image{
+         max-width: 100%;
+         height: auto;
+     }
+
+     #main{
+        padding: 0px 0px 0px 0px;
+    }
+
+    #tribute-info{
+        /*display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;*/
+        padding: 0 10px 20px 10px;
+        text-align: justify;
+    }
+
+ }
